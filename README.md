@@ -59,7 +59,3 @@ El archivo CSV debe contener:
 - IDs de reserva (números de 8-20 dígitos)
 - Una columna "Overall review" (opcional, para comentarios)
 - Campos adicionales según necesidad
-
-## Licencia
-
-[Tu licencia aquí]
