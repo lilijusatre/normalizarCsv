@@ -1,7 +1,8 @@
 # Normalizador de CSV
 
-Una aplicación de escritorio para normalizar archivos CSV, especialmente
-diseñada para procesar archivos de reseñas con IDs de reserva.
+## Descripción
+
+Herramienta para normalizar y limpiar archivos CSV de manera sencilla.
 
 ## Características
 
@@ -9,8 +10,8 @@ diseñada para procesar archivos de reseñas con IDs de reserva.
 - Limpieza de espacios extra en texto
 - Unión inteligente de comentarios relacionados
 - Detección automática de IDs de reserva
-- Barra de progreso en tiempo real
-- Manejo robusto de errores
+- Conserva máximo detalle
+- Sin conocimientos técnicos requeridos
 
 ## Requisitos
 
@@ -23,7 +24,7 @@ diseñada para procesar archivos de reseñas con IDs de reserva.
 1. Clona este repositorio:
 
 ```bash
-git clone [URL_DEL_REPOSITORIO]
+git clone https://github.com/lilijusatre/normalizarCsv.git
 ```
 
 2. Instala las dependencias:
