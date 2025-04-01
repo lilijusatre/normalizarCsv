@@ -1,8 +1,7 @@
 # Normalizador de CSV
 
-## Descripción
-
-Herramienta para normalizar y limpiar archivos CSV de manera sencilla.
+Una aplicación de escritorio para normalizar archivos CSV, especialmente
+diseñada para procesar archivos de reseñas con IDs de reserva.
 
 ## Características
 
@@ -10,8 +9,8 @@ Herramienta para normalizar y limpiar archivos CSV de manera sencilla.
 - Limpieza de espacios extra en texto
 - Unión inteligente de comentarios relacionados
 - Detección automática de IDs de reserva
-- Conserva máximo detalle
-- Sin conocimientos técnicos requeridos
+- Barra de progreso en tiempo real
+- Manejo robusto de errores
 
 ## Requisitos
 
@@ -60,3 +59,28 @@ El archivo CSV debe contener:
 - IDs de reserva (números de 8-20 dígitos)
 - Una columna "Overall review" (opcional, para comentarios)
 - Campos adicionales según necesidad
+
+## Crear Ejecutable para Windows
+
+Para crear un ejecutable (.exe) para Windows:
+
+1. Asegúrate de tener Python instalado en Windows
+2. Clona este repositorio en Windows
+3. Ejecuta el script de compilación:
+
+```bash
+python build_windows.py
+```
+
+El ejecutable se creará en la carpeta `dist` con el nombre
+`NormalizadorCSV.exe`.
+
+### Requisitos para Compilación en Windows
+
+- Windows 10 o superior
+- Python 3.x
+- pip (incluido con Python)
+
+## Licencia
+
+[Tu licencia aquí]
