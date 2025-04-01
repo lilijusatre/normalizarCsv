@@ -27,8 +27,18 @@ jobs:
         run: |
           python build_windows.py
 
+      - name: Check if executable exists
+        run: |
+          if (Test-Path "dist/NormalizadorCSV.exe") {
+            Write-Host "Executable created successfully"
+          } else {
+            Write-Host "Error: Executable not found"
+            exit 1
+          }
+
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: NormalizadorCSV
           path: dist/NormalizadorCSV.exe
+          retention-days: 5
